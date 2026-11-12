@@ -397,3 +397,11 @@ border: 2px solid #6b5344;
   border: 2px solid #d4c4a8;
   background-color: #FBF3E7;
 }
+
+.admin {
+   
+padding-left: 20px;
+align-items: center;
+border-radius: 30px;
+border: 2px solid #6b5344;
+}
