@@ -399,29 +399,24 @@ border: 2px solid #6b5344;
 }
 
 //adminnnn
-:host {
+
+
+.caixa {
   min-height: 100vh;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #f8f0e5;
-}
-
-.caixa {
-  width: 90%;
-  max-width: 450px;
-  padding: 30px;
-  background-color: #fffaf3;
-  border-radius: 15px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.12);
+  padding: 20px;
   box-sizing: border-box;
+  background-color: #f8f0e5;
 }
 
 .admin {
   width: 100%;
+  max-width: 450px;
   text-align: center;
 }
-
 .campo input {
   width: 100%;
   padding: 12px;
