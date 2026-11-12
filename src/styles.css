@@ -400,23 +400,32 @@ border: 2px solid #6b5344;
 
 //adminnnn
 
-
 .caixa {
-  min-height: 100vh;
+  position: fixed;
+  inset: 0;
   width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  height: 100%;
+  display: grid;
+  place-items: center;
   padding: 20px;
   box-sizing: border-box;
   background-color: #f8f0e5;
+  z-index: 10;
 }
 
 .admin {
   width: 100%;
   max-width: 450px;
+  padding: 30px;
+  box-sizing: border-box;
   text-align: center;
+  background-color: #fffaf3;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.12);
 }
+
+
+
 .campo input {
   width: 100%;
   padding: 12px;
