@@ -1,0 +1,88 @@
+
+<nav class="nav">
+  <div class="nav-conteudo">
+    <a routerLink="/" class="logo">
+      <img src="/imagens/logo.png" alt="Prepare Café">
+    </a>
+
+    <ul class="nav-links">
+      <li><a routerLink="/">Início</a></li>
+      <li><a routerLink="/como-baixar">Como Baixar</a></li>
+      <li><a routerLink="/passos">Passo a Passo</a></li>
+      <li><a routerLink="/como-funciona">Como Funciona</a></li>
+      <li><a routerLink="/desenv">Desenvolvimento</a></li>
+      <li><a routerLink="/dicas" class="ativo">Dicas</a></li>
+      <li><a routerLink="/especial">Especial</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="cabecalho-pagina">
+  <h1>Dicas para não se perder</h1>
+</header>
+
+<section class="secao">
+  <div class="container">
+    <section class="duvidas">
+      <h1>Assistência</h1>
+      <h2>Como podemos ajudar?</h2>
+
+      <p class="subtitulo">
+        Selecione uma das perguntas abaixo ou me envie sua dúvida.
+      </p>
+
+      <section class="perguntas">
+        <button class="botao-secundario" (click)="responder('iphone')">
+          Consigo jogar pelo iphone?
+        </button>
+
+        <button class="botao-secundario" (click)="responder('tempo')">
+          Quanto tempo levou para desenvolver o jogo?
+        </button>
+
+        <button class="botao-secundario" (click)="responder('celular')">
+          O site funciona pelo celular?
+        </button>
+
+        <button class="botao-secundario" (click)="responder('dados')">
+          Meus dados ficam seguros?
+        </button>
+
+        <button class="botao-secundario" (click)="responder('problema')">
+          Encontrei um problema. O que faço?
+        </button>
+      </section>
+
+      <br><br>
+
+      <section class="chat">
+        <div id="resposta">
+          <strong>Assistente:</strong>
+
+  <p>Olá! Como posso ajudar?</p>
+
+        </div>
+      </section>
+    </section>
+  </div>
+</section>
+
+<section class="secao">
+  <div class="container">
+    <div class="img largo">
+      <img src="/imagens/missao.jpg" alt="Missões do jogo">
+    </div>
+  </div>
+</section>
+
+<section class="secao">
+  <div class="container">
+    <div class="img largo">
+      <img src="/imagens/restock.jpg" alt="Organização do café">
+    </div>
+  </div>
+</section>
+
+<footer class="rodape">
+  <p>Luana Guidine</p>
+</footer>

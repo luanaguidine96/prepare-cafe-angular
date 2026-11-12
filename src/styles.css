@@ -1,0 +1,399 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Quicksand', sans-serif;
+  background-color: #FBF3E7;
+  color: #4A3428;
+  line-height: 1.6;
+}
+
+.nav-links a.ativo {
+  background-color: #4A3428;
+  color: #FBF3E7;
+}
+
+h1, h2, h3, h4 {
+  color: #4A3428;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* nav */
+.nav {
+  background-image: url('/imagens/back.jpg');
+  border-bottom: 2px solid #F1E4D2;
+  padding: 16px 0;
+
+
+}
+
+.nav-conteudo {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 24px;
+  
+  position: relative; 
+}
+
+.nav img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  border: 2px solid #d4c4a8;
+ 
+}
+
+.logo {
+   display: inline-block;
+  position: absolute;
+  left: 0px;
+  top: 50%;
+  
+   margin-top: -40px; 
+}
+
+
+
+.nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background-color: #FBF3E7;
+margin-left: 150px;
+align-items: center;
+border-radius: 30px;
+border: 1px solid #6b5344;
+}
+
+.nav-links li {
+  display: inline-block;
+  margin: 4px;
+}
+
+.nav-links a {
+  display: inline-block;
+  padding: 8px 14px;
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.nav-links a:hover {
+  background-color: #8FA888;
+  color: #FBF3E7;
+}
+
+
+
+/* 
+   footer
+ */
+.rodape {
+  background-color: #4A3428;
+  color: #FBF3E7;
+  padding: 40px 24px 28px;
+  margin-top: 60px;
+  text-align: center;
+}
+
+.rodape p {
+  font-size: 0.9rem;
+}
+
+/* topo do inicio */
+.hero {
+  padding: 60px 24px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 2.6rem;
+  font-weight: 700;
+  margin-bottom: 18px;
+}
+
+.hero h1 em {
+  color: #925f34;
+  font-style: italic;
+}
+
+.hero p.subtitulo {
+  max-width: 560px;
+  margin: 0 auto 30px auto;
+  font-size: 1.1rem;
+  color: #6b5344;
+}
+
+.botao-download {
+  display: inline-block;
+  background-color: #4A3428;
+  color: #FBF3E7;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+  font-size: 1.1rem;
+  padding: 16px 34px;
+  border-radius: 999px;
+   box-shadow: 5px 5px 10px rgb(0, 0, 0);
+}
+
+.botao-download:hover {
+  background-color: #A9754B;
+}
+
+.botao-download .icone img {
+ width: 30px;
+  height: 30px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 15px;
+  margin-bottom: 5px;
+}
+
+.botao-secundario {
+  display: inline-block;
+  border: 2px solid #4A3428;
+  color: #4A3428;
+  font-weight: 700;
+  padding: 12px 28px;
+  border-radius: 999px;
+   box-shadow: 5px 5px 10px rgb(0, 0, 0);
+}
+
+.botao-secundario:hover {
+  background-color: #4A3428;
+  color: #FBF3E7;
+   animation: pulsar 500ms infinite;
+}
+
+/* secoes  */
+.secao {
+  padding: 60px 24px;
+}
+
+.secao-alt {
+  background-image: url('/imagens/back.jpg');
+
+}
+
+.secao-titulo {
+  text-align: center;
+  max-width: 640px;
+  margin: 0 auto 40px auto;
+}
+
+.secao-titulo .hero-eyebrow {
+  display: inline-block;
+  margin-bottom: 14px;
+}
+
+.secao-titulo h2 {
+  font-size: 2rem;
+  margin-bottom: 12px;
+}
+
+.secao-titulo p {
+  color: #6b5344;
+  font-size: 1.05rem;
+}
+.img, .placeholder-img {
+  background-color:  #4A3428;
+  border-radius: 16px;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.img.alto { min-height: 300px; }
+.img.quadrado { min-height: 180px; }
+.img.largo { min-height: 300px; }
+
+
+
+.placeholder-img small {
+  font-size: 0.8rem;
+  opacity: 0.75;
+}
+
+.cartao {
+  background-color: #FBF3E7;
+  border-radius: 16px;
+  padding: 26px 22px;
+  border: 1px solid #F1E4D2; /*linhazinha*/
+}
+
+
+.cartao h3 {
+  font-size: 1.15rem;
+  margin-bottom: 8px;
+}
+
+.cartao p {
+  color: #6b5344;
+  font-size: 0.98rem;
+}
+
+
+.cartao img{
+   width: 30px;
+  height: 30px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 15px;
+  margin-bottom: 5px;
+}
+
+/*pagina passo a passo */
+.passo {
+  padding: 24px 0;
+  border-bottom: 1px dashed #F1E4D2;
+}
+
+.passo:last-child {
+  border-bottom: none;
+}
+
+.passo-numero {
+  font-family: 'Fraunces', serif;
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #6b5344;
+  display: inline-block;
+  width: 60px;
+  vertical-align: top;
+}
+
+.passo-texto {
+  display: inline-block;
+  width: 80%;
+  vertical-align: top;
+}
+
+.passo-texto h3 {
+  margin-bottom: 6px;
+  font-size: 1.2rem;
+}
+
+.passo-texto p {
+  color: #6b5344;
+  margin-bottom: 14px;
+}
+
+/* cabeçalho das outra spaginas sem ser o incio*/
+.cabecalho-pagina {
+  padding: 50px 24px 20px;
+  text-align: center;
+}
+
+.cabecalho-pagina p {
+  max-width: 560px;
+  margin: 14px auto 0 auto;
+  color: #6b5344;
+}
+.cabecalho-pagina img{
+ width: 400px;
+  height: 250px;
+  border-radius: 10%;
+}
+
+/*pagina dicas */
+.lista-dicas {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.lista-dicas li {
+  background-color: #FBF3E7;
+  border: 1px solid #F1E4D2;
+  border-radius: 14px;
+  padding: 18px 20px;
+  margin-bottom: 16px;
+}
+
+.lista-dicas .icone-dica {
+  font-size: 1.4rem;
+  margin-right: 10px;
+}
+
+.secao video {
+    width: 100%;
+    max-width: 900px;
+    border-radius: 12px;
+}
+.imglargoago{ /*especial*/
+  width: 200px;
+  border: 5px solid #4A3428;
+}
+/*efeitos que aprendi no tiktok*/
+
+img {
+    width: 100%;
+    height: 100%;
+    transition: transform 200ms
+}
+
+img:hover {
+    transform: scale(1.2); /*aumenta a imagem para 1,2 vezes o tamanho original*/
+}
+
+h1, p{
+    animation: aparecer 1s ease; /*devagar acelera devagar*/
+}
+
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+   100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes pulsar {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.5);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.botao-download:hover {
+    animation: pulsar 500ms infinite;
+   
+}
+.container .passo-texto{
+  background-color: #FBF3E7;
+padding-left: 20px;
+align-items: center;
+border-radius: 30px;
+border: 2px solid #6b5344;
+}
+.passo-numero{
+   text-align: center;
+  border-radius: 50%;
+  border: 2px solid #d4c4a8;
+  background-color: #FBF3E7;
+}

@@ -1,0 +1,23 @@
+<div class="login-container">
+
+  <h1>Área administrativa</h1>
+
+  <p>Digite a senha para continuar:</p>
+
+  <form (ngSubmit)="entrar()">
+
+    <input
+      type="password"
+      name="senha"
+      [(ngModel)]="senha"
+      placeholder="Digite sua senha"
+      required
+    >
+
+    <button type="submit">Entrar</button>
+
+  </form>
+
+  <p>{{ mensagem }}</p>
+
+</div>
