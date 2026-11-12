@@ -30,7 +30,7 @@ jobs:
         run: npm ci
 
       - name: Gerar build
-        run: npx ng build --base-href /site-caf-/
+        run: npx ng build --base-href /prepare-cafe-angular/
 
       - name: Configurar GitHub Pages
         uses: actions/configure-pages@v5
